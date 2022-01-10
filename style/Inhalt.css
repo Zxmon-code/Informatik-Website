@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+body {
+    background-image: url(../images/book.jpg);
+	background-size: 100%;
+	font-family: Cinzel, serif;
+}
+
+.middle {
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 30px;
+	font-size: 140%;
+	box-shadow: 0 4px 8px 0 gray;
+	margin-top: -12%;
+}
+
+h1 {
+    padding-top: 20%
+}
+
+.text {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: 100%;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    margin-top: 10%;
+}
+
+button {
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: black;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid;
+	border-color: black;
+	border-radius: 7px;
+	transition-duration: 0.4s;
+}
+
+.buttona:hover {
+	background-color: beige;
+}
+
